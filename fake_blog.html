@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>John's Blog</title>
+    <meta charset="utf-8">
+    <meta name="John's blog" content="This is my blog project for Coding Dojo. This is going to round out the HTML section of the Web Fundamentals course.">
+  </head>
+
+  <body>
+    <h1>John's Blog</h1>
+
+    <div>
+
+      <p>My name is John and I love cars. My favorite car is the Acura NSX. Here is a picture of it:</p>
+      <p>
+        <a href="http://nsx.acura.com/explore/nsx">
+        <img src=http://blog.caranddriver.com/wp-content/uploads/2016/03/2017-Acura-NSX-FLIPPER-626x382.jpg alt="Picture of a Blue Acura NSX"></a>
+      </p>
+
+      <p>If you want to learn more about the NSX, <a href="http://nsx.acura.com/explore/nsx">CLICK HERE</a> or on the picture of the above to visit Acura's dedicated NSX website</p>
+    </div>
+
+    <div>
+      <h2>Here are some of the things I love about the NSX</h2>
+      <ul>
+        <li>Performance</li>
+        <li>Styling</li>
+        <li>Technology</li>
+      </ul>
+    </div>
+
+    <div>
+      <h2>Check out this table of NSX stats.</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Horsepower</th>
+            <th>Torque</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>573 bhp</td>
+            <td>476 lb-ft</td>
+            <td>$156,000</td>
+          </tr>
+        </tbody>
+
+      </table>
+    </div>
+
+    <div>
+      <h2>Tell me what you think of the NSX</h2>
+      <form>
+        <p>
+          <label for="favorite_feature">What is your favorite feature of the NSX?</label>
+          <input type="text" id="favorite_feature" name="favorite_feature">
+        </p>
+        <p>What feature do you like least about the NSX?</p>
+        <p>
+          <label for="performance">Performance </label>
+          <input type="radio" id="performance" name="performance">
+
+
+          <label for="styling">Styling </label>
+          <input type="radio" id="styling" name="styling">
+
+
+          <label for="price">Price </label>
+          <input type="radio" id="price" name="price">
+        </p>
+
+        <p>If you don't like the NSX, which cars would you rather have?</p>
+
+        <p>
+          <label for="ferrari">Ferrari 488</label>
+          <input type="checkbox" id="ferrari" name="ferrari">
+
+          <label for="gtr">Nissan GT-R</label>
+          <input type="checkbox" id="gtr" name="gtr">
+
+          <label for="lambo">Lamborghini Huracan</label>
+          <input type="checkbox" id="lambo" name="lambo">
+
+          <label for="audi">Audi R8</label>
+          <input type="checkbox" id="audi" name="audi">
+        </p>
+
+        <p>
+          <input type="button" name="submit" id="submit" value="Submit">
+      </form>
+    </div>
+
+  </body>
+</html>
